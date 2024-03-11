@@ -5,10 +5,10 @@ import {Outlet} from "react-router-dom"
 function Home(){
   return (
     <div className= "flex flex-col items-center mt-5">
-      <Link  className="bg-green-400 p-2 rounded-md mt-2"to="/apurba">Apurba</Link>
-      <Link className="bg-green-400 p-2 rounded-md mt-2"  to="/Maa">Maa</Link>
-      <Link className="bg-green-400 p-2 rounded-md mt-2" to="/papa">Papa</Link>
-      <Link className="bg-green-400 p-2 rounded-md mt-2" to="/kumar">Kumar</Link>
+      <Link  className="bg-green-400 p-2 rounded-md mt-2"to="/project-rasu/apurba">Apurba</Link>
+      <Link className="bg-green-400 p-2 rounded-md mt-2"  to="/project-rasu/Maa">Maa</Link>
+      <Link className="bg-green-400 p-2 rounded-md mt-2" to="/project-rasu/papa">Papa</Link>
+      <Link className="bg-green-400 p-2 rounded-md mt-2" to="/project-rasu/kumar">Kumar</Link>
     
     
     <Outlet />

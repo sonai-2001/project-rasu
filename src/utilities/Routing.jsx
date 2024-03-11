@@ -11,13 +11,13 @@ function Routing(){
   return (
       <Routes>
        
-       <Route  path="/" element={<Home />}  >
-          <Route   path="/:name" element={<Dyna />} />
+       <Route  path="/project-rasu" element={<Home />}  >
+          <Route   path="/project-rasu:name" element={<Dyna />} />
        </Route>
-       <Route  path="/user" element={<Users/>} />
+       <Route  path="/project-rasu/user" element={<Users/>} />
            
        
-       <Route  path="/products" element={<Products />}/>
+       <Route  path="/project-rasu/products" element={<Products />}/>
 
       </Routes>  
   )   
